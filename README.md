@@ -1,4 +1,4 @@
-# app-comp
+# Vue composition api example
 
 ## Project setup
 ```
