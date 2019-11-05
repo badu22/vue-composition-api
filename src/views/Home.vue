@@ -2,17 +2,21 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+	<counter/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+
+import counter from '@/components/counter.vue';
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
+    name: 'home',
+    components: {
+        HelloWorld,
+        counter
+    }
 }
 </script>
